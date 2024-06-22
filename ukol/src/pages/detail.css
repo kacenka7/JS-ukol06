@@ -1,0 +1,34 @@
+
+.productPage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Použití flexboxu pro rozvržení */
+  }
+  
+  .productContent {
+    flex: 1; /* Prvek bude zabírat flexibilní prostor */
+    padding-right: 20px;
+    text-align: left;
+  }
+  
+  .productImage {
+    max-width: 300px; /* Maximální šířka obrázku */
+  }
+  
+  .productImage img {
+    max-width: 100%; /* Obrázek bude mít maximální šířku rodičovského kontejneru */
+    height: auto; /* Udržení poměru stran */
+    border-radius: 8px; /* Zaoblené rohy obrázku */
+  }
+
+  .container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
